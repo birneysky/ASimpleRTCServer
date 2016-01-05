@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white"
+    android:id="@+id/sv_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <com.view.circleimageview.CircleImageView
+            android:id="@+id/civ_searched_item_user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp" 
+            android:src="@drawable/app_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="12dp"/>
+        <TextView 
+            android:id="@+id/tv_searched_item_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/civ_searched_item_user_icon"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:hint="user_name_flp"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@id/civ_searched_item_user_icon"
+            android:layout_alignBottom="@id/civ_searched_item_user_icon"
+            />
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/tv_searched_item_help_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:hint="人丢啦，怎么办？！balabalagkfthp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+        
+        <GridView
+            android:id="@+id/gv_searched_item_help_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="5dp"
+            android:numColumns="4"
+            android:verticalSpacing="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp" 
+            >
+
+        </GridView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+	        <ImageView 
+	            android:id="@+id/iv_searched_item_icon_loc"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/icon_distance_loc"
+	            android:contentDescription="@null"/> 
+            
+	        <TextView 
+	            android:id="@+id/tv_searched_item_distance"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@id/iv_searched_item_icon_loc"
+	            android:text="正在获取..."
+	            android:textColor="@color/royalblue"
+	            android:layout_marginLeft="8dp"
+	            android:textSize="15sp"/>
+        
+	       <ImageView 
+	            android:id="@+id/iv_searched_item_icon_comment"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/icon_comment"
+	            android:layout_toLeftOf="@+id/tv_searched_item_comment"
+	            android:layout_marginRight="8dp"
+	            android:contentDescription="@null"/> 
+	        <TextView 
+	            android:id="@+id/tv_searched_item_comment"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/str_comment_name"
+	            android:layout_alignParentRight="true"
+	            android:gravity="right"
+	            android:textColor="@color/gray"
+	            android:textSize="15sp"/>
+		</RelativeLayout>
+        <ImageView 
+            android:id="@+id/iv_searched_item_black_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_line"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@null"/> 
+          
+       <com.view.listviewforscrollview.InnerListView
+            android:id="@+id/lv_search_item_help_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:divider="@null" 
+            android:background="#aacc33"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+        </com.view.listviewforscrollview.InnerListView>
+		<RelativeLayout
+            android:id="@+id/layout_new_comment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" 
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edt_searched_item_newcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_toLeftOf="@+id/btn_searched_item_newcomment"
+                android:background="@drawable/search_bar_edit_normal"
+                android:gravity="center_vertical"
+                android:inputType="textMultiLine"
+                android:hint="评论文本"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_searched_item_newcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_bg"
+                android:layout_margin="3dp"
+                android:padding="10dp"
+                android:text="@string/str_comment_send"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    <Button
+        android:id="@+id/btn_searched_item_help_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/str_search_item_help_search"
+        />
+        
+
+</LinearLayout>
+</ScrollView>

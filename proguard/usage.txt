@@ -1,0 +1,1180 @@
+cn.sharesdk.onekeyshare.EditPageFakeActivity:
+    protected java.util.ArrayList toFriendList
+    70:75:public java.lang.String getLogoName(java.lang.String)
+    79:79:protected boolean isShowAtUserLayout(java.lang.String)
+    85:85:protected java.lang.String getAtUserButtonText(java.lang.String)
+    89:103:protected java.lang.String getJoinSelectedUser(java.util.HashMap)
+    107:122:public boolean haveImage()
+    126:195:protected boolean initImageList(cn.sharesdk.onekeyshare.EditPageFakeActivity$ImageListResultsCallback)
+    199:202:protected void removeImage(cn.sharesdk.onekeyshare.EditPageFakeActivity$ImageInfo)
+    205:250:protected void setResultAndFinish()
+    37:37:static synthetic java.util.ArrayList access$0(cn.sharesdk.onekeyshare.EditPageFakeActivity)
+    28:28:static synthetic android.app.Activity access$1(cn.sharesdk.onekeyshare.EditPageFakeActivity)
+cn.sharesdk.onekeyshare.EditPageFakeActivity$1
+cn.sharesdk.onekeyshare.EditPageFakeActivity$ImageInfo
+cn.sharesdk.onekeyshare.EditPageFakeActivity$ImageListResultsCallback
+cn.sharesdk.onekeyshare.FollowerListFakeActivity
+cn.sharesdk.onekeyshare.FollowerListFakeActivity$FollowersResult
+cn.sharesdk.onekeyshare.FollowerListFakeActivity$Following
+cn.sharesdk.onekeyshare.OnekeyShare:
+    private static final int MSG_TOAST
+    private static final int MSG_ACTION_CCALLBACK
+    private static final int MSG_CANCEL_NOTIFY
+    131:132:public void setTheme(cn.sharesdk.onekeyshare.OnekeyShareTheme)
+    136:137:public void setAddress(java.lang.String)
+    149:150:public void setTitleUrl(java.lang.String)
+    159:159:public java.lang.String getText()
+    170:172:public void setImageUrl(java.lang.String)
+    181:182:public void setFilePath(java.lang.String)
+    186:187:public void setComment(java.lang.String)
+    191:192:public void setSite(java.lang.String)
+    196:197:public void setSiteUrl(java.lang.String)
+    201:202:public void setVenueName(java.lang.String)
+    206:207:public void setVenueDescription(java.lang.String)
+    211:212:public void setLatitude(float)
+    216:217:public void setLongitude(float)
+    221:222:public void setSilent(boolean)
+    226:227:public void setPlatform(java.lang.String)
+    231:232:public void setInstallUrl(java.lang.String)
+    236:237:public void setExecuteUrl(java.lang.String)
+    241:242:public void setMusicUrl(java.lang.String)
+    246:247:public void setCallback(cn.sharesdk.framework.PlatformActionListener)
+    251:251:public cn.sharesdk.framework.PlatformActionListener getCallback()
+    256:257:public void setShareContentCustomizeCallback(cn.sharesdk.onekeyshare.ShareContentCustomizeCallback)
+    261:261:public cn.sharesdk.onekeyshare.ShareContentCustomizeCallback getShareContentCustomizeCallback()
+    266:272:public void setCustomerLogo(android.graphics.Bitmap,android.graphics.Bitmap,java.lang.String,android.view.View$OnClickListener)
+    276:277:public void disableSSOWhenAuthorize()
+    281:283:public void setDialogMode()
+    287:288:public void addHiddenPlatform(java.lang.String)
+    293:298:public void setViewToShare(android.view.View)
+    302:303:public void setImageArray(java.lang.String[])
+    306:307:public void setEditPageBackground(android.view.View)
+    310:311:public void setOnShareButtonClickListener(cn.sharesdk.onekeyshare.PlatformListFakeActivity$OnShareButtonClickListener)
+    611:612:public void setShareFromQQAuthSupport(boolean)
+cn.sharesdk.onekeyshare.PicViewer
+cn.sharesdk.onekeyshare.PlatformListFakeActivity:
+    69:69:public java.util.HashMap getShareParamsMap()
+    77:77:public boolean isSilent()
+    85:85:public java.util.ArrayList getCustomerLogos()
+    93:93:public java.util.HashMap getHiddenPlatforms()
+    109:109:public cn.sharesdk.onekeyshare.PlatformListFakeActivity$OnShareButtonClickListener getOnShareButtonClickListener()
+    117:117:public boolean isDialogMode()
+    125:125:public cn.sharesdk.onekeyshare.ThemeShareCallback getThemeShareCallback()
+cn.sharesdk.onekeyshare.ReflectableShareContentCustomizeCallback
+cn.sharesdk.onekeyshare.Shake2Share
+cn.sharesdk.onekeyshare.Shake2Share$OnShakeListener
+cn.sharesdk.onekeyshare.ShareCore:
+    113:113:public static boolean canAuthorize(android.content.Context,java.lang.String)
+    126:126:public static boolean canGetUserInfo(android.content.Context,java.lang.String)
+cn.sharesdk.onekeyshare.theme.classic.EditPage
+cn.sharesdk.onekeyshare.theme.classic.EditPage$1
+cn.sharesdk.onekeyshare.theme.classic.EditPage$1$1
+cn.sharesdk.onekeyshare.theme.classic.EditPage$2
+cn.sharesdk.onekeyshare.theme.classic.EditPage$3
+cn.sharesdk.onekeyshare.theme.classic.EditPage$4
+cn.sharesdk.onekeyshare.theme.classic.EditPage$5
+cn.sharesdk.onekeyshare.theme.classic.EditPage$6
+cn.sharesdk.onekeyshare.theme.classic.EditPage$7
+cn.sharesdk.onekeyshare.theme.classic.EditPage$8
+cn.sharesdk.onekeyshare.theme.classic.FollowListPage
+cn.sharesdk.onekeyshare.theme.classic.FollowListPage$FollowAdapter
+cn.sharesdk.onekeyshare.theme.classic.FollowListPage$FollowListItem
+cn.sharesdk.onekeyshare.theme.classic.FollowListPage$PRTHeader
+cn.sharesdk.onekeyshare.theme.classic.FollowListPage$RotateImageView
+cn.sharesdk.onekeyshare.theme.classic.PlatformGridView:
+    private static final int MIN_CLICK_INTERVAL
+    private static final int MSG_PLATFORM_LIST_GOT
+    76:78:public PlatformGridView(android.content.Context,android.util.AttributeSet)
+cn.sharesdk.onekeyshare.theme.skyblue.EditPage
+cn.sharesdk.onekeyshare.theme.skyblue.EditPage$1
+cn.sharesdk.onekeyshare.theme.skyblue.EditPage$2
+cn.sharesdk.onekeyshare.theme.skyblue.EditPage$3
+cn.sharesdk.onekeyshare.theme.skyblue.EditPage$4
+cn.sharesdk.onekeyshare.theme.skyblue.FollowListPage
+cn.sharesdk.onekeyshare.theme.skyblue.FollowListPage$FollowAdapter
+cn.sharesdk.onekeyshare.theme.skyblue.FollowListPage$FollowListItem
+cn.sharesdk.onekeyshare.theme.skyblue.FollowListPage$PRTHeader
+cn.sharesdk.onekeyshare.theme.skyblue.FollowListPage$RotateImageView
+com.baidu.lbsapi.auth.ErrorMessage:
+    ErrorMessage()
+com.baidu.mapapi.SDKInitializer:
+    public static final java.lang.String SDK_BROADTCAST_ACTION_STRING_PERMISSION_CHECK_ERROR
+    public static final java.lang.String SDK_BROADCAST_ACTION_STRING_NETWORK_ERROR
+    public static final java.lang.String SDK_BROADTCAST_INTENT_EXTRA_INFO_KEY_ERROR_CODE
+    private SDKInitializer()
+com.baidu.mapapi.VersionInfo:
+    public static final java.lang.String VERSION_INFO
+    public static final java.lang.String VERSION_DESC
+    public VersionInfo()
+    public static java.lang.String getVersionDesc()
+com.baidu.mapapi.cloud.BaseCloudSearchInfo
+com.baidu.mapapi.cloud.BaseSearchInfo
+com.baidu.mapapi.cloud.BaseSearchResult
+com.baidu.mapapi.cloud.BoundSearchInfo
+com.baidu.mapapi.cloud.CloudListener
+com.baidu.mapapi.cloud.CloudManager
+com.baidu.mapapi.cloud.CloudPoiInfo
+com.baidu.mapapi.cloud.CloudSearchResult
+com.baidu.mapapi.cloud.DetailSearchInfo
+com.baidu.mapapi.cloud.DetailSearchResult
+com.baidu.mapapi.cloud.LocalSearchInfo
+com.baidu.mapapi.cloud.NearbySearchInfo
+com.baidu.mapapi.cloud.a
+com.baidu.mapapi.map.Arc
+com.baidu.mapapi.map.ArcOptions
+com.baidu.mapapi.map.BaiduMap:
+    public static final int MAP_TYPE_NORMAL
+    public static final int MAP_TYPE_SATELLITE
+    public final void setMapType(int)
+    public final int getMapType()
+    public final float getMaxZoomLevel()
+    public final void setMaxAndMinZoomLevel(float,float)
+    public final float getMinZoomLevel()
+    public final com.baidu.mapapi.map.UiSettings getUiSettings()
+    public final void setBuildingsEnabled(boolean)
+    public final boolean isBuildingsEnabled()
+    public final com.baidu.mapapi.map.MyLocationData getLocationData()
+    public final void setMyLocationConfigeration(com.baidu.mapapi.map.MyLocationConfiguration)
+    public final com.baidu.mapapi.map.MyLocationConfiguration getLocationConfigeration()
+    public void addHeatMap(com.baidu.mapapi.map.HeatMap)
+    void a()
+    public final void setBaiduHeatMapEnabled(boolean)
+    public final boolean isBaiduHeatMapEnabled()
+    public final boolean isSupportBaiduHeatMap()
+    public final void setTrafficEnabled(boolean)
+    public final boolean isTrafficEnabled()
+    public final void snapshot(com.baidu.mapapi.map.BaiduMap$SnapshotReadyCallback)
+    public final void snapshotScope(android.graphics.Rect,com.baidu.mapapi.map.BaiduMap$SnapshotReadyCallback)
+    public void showInfoWindow(com.baidu.mapapi.map.InfoWindow)
+    public final void setOnMapStatusChangeListener(com.baidu.mapapi.map.BaiduMap$OnMapStatusChangeListener)
+    public void setOnMapLoadedCallback(com.baidu.mapapi.map.BaiduMap$OnMapLoadedCallback)
+    public final void setOnMapDoubleClickListener(com.baidu.mapapi.map.BaiduMap$OnMapDoubleClickListener)
+    public final void setOnMapLongClickListener(com.baidu.mapapi.map.BaiduMap$OnMapLongClickListener)
+    public final void setOnMarkerClickListener(com.baidu.mapapi.map.BaiduMap$OnMarkerClickListener)
+    public final void setOnMarkerDragListener(com.baidu.mapapi.map.BaiduMap$OnMarkerDragListener)
+    public final void setOnMyLocationClickListener(com.baidu.mapapi.map.BaiduMap$OnMyLocationClickListener)
+com.baidu.mapapi.map.BaiduMapOptions:
+    public BaiduMapOptions()
+    public com.baidu.mapapi.map.BaiduMapOptions mapStatus(com.baidu.mapapi.map.MapStatus)
+    public com.baidu.mapapi.map.BaiduMapOptions compassEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions mapType(int)
+    public com.baidu.mapapi.map.BaiduMapOptions rotateGesturesEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions scrollGesturesEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions overlookingGesturesEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions zoomControlsEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions zoomGesturesEnabled(boolean)
+    public com.baidu.mapapi.map.BaiduMapOptions scaleControlEnabled(boolean)
+com.baidu.mapapi.map.BitmapDescriptor:
+    public void recycle()
+com.baidu.mapapi.map.BitmapDescriptorFactory:
+    public BitmapDescriptorFactory()
+    public static com.baidu.mapapi.map.BitmapDescriptor fromAsset(java.lang.String)
+    public static com.baidu.mapapi.map.BitmapDescriptor fromAssetWithDpi(java.lang.String)
+    public static com.baidu.mapapi.map.BitmapDescriptor fromFile(java.lang.String)
+    public static com.baidu.mapapi.map.BitmapDescriptor fromPath(java.lang.String)
+    public static com.baidu.mapapi.map.BitmapDescriptor fromView(android.view.View)
+com.baidu.mapapi.map.Circle:
+    public com.baidu.mapapi.model.LatLng getCenter()
+    public int getFillColor()
+    public int getRadius()
+    public com.baidu.mapapi.map.Stroke getStroke()
+    public void setCenter(com.baidu.mapapi.model.LatLng)
+    public void setFillColor(int)
+    public void setRadius(int)
+    public void setStroke(com.baidu.mapapi.map.Stroke)
+com.baidu.mapapi.map.CircleOptions:
+    public com.baidu.mapapi.model.LatLng getCenter()
+    public int getFillColor()
+    public int getRadius()
+    public com.baidu.mapapi.map.Stroke getStroke()
+    public com.baidu.mapapi.map.CircleOptions visible(boolean)
+    public boolean isVisible()
+    public com.baidu.mapapi.map.CircleOptions zIndex(int)
+    public int getZIndex()
+    public com.baidu.mapapi.map.CircleOptions extraInfo(android.os.Bundle)
+    public android.os.Bundle getExtraInfo()
+com.baidu.mapapi.map.Dot
+com.baidu.mapapi.map.DotOptions
+com.baidu.mapapi.map.Gradient:
+    private java.util.HashMap a()
+    int[] a(double)
+    private static int a(int,int,float)
+com.baidu.mapapi.map.Gradient$1
+com.baidu.mapapi.map.Gradient$a
+com.baidu.mapapi.map.GroundOverlay
+com.baidu.mapapi.map.GroundOverlayOptions
+com.baidu.mapapi.map.HeatMap:
+    private com.baidu.mapapi.map.i f
+    private java.util.Collection g
+    private int h
+    private com.baidu.mapapi.map.Gradient i
+    private double j
+    private com.baidu.mapapi.map.d k
+    private int[] l
+    private double[] m
+    private double[] n
+    public static final int DEFAULT_RADIUS
+    public static final double DEFAULT_OPACITY
+    private HeatMap(com.baidu.mapapi.map.HeatMap$Builder)
+    public void removeHeatMap()
+    private void b(java.util.Collection)
+    private static java.util.Collection c(java.util.Collection)
+    com.baidu.mapapi.map.j a(int,int,int)
+    private synchronized boolean a(java.lang.String)
+    private synchronized void b(java.lang.String)
+    private synchronized com.baidu.mapapi.map.j c(java.lang.String)
+    private synchronized void a(java.lang.String,com.baidu.mapapi.map.j)
+    private void b(int,int,int)
+    private void a(com.baidu.mapapi.map.Gradient)
+    private double[] a(int)
+    private static com.baidu.mapapi.map.j a(android.graphics.Bitmap)
+    private static com.baidu.mapapi.map.d d(java.util.Collection)
+    private static double[] a(int,double)
+    private static double[][] a(double[][],double[])
+    private static android.graphics.Bitmap a(double[][],int[],double)
+    private static double a(java.util.Collection,com.baidu.mapapi.map.d,int,int)
+    static synthetic java.util.Collection a(java.util.Collection)
+    synthetic HeatMap(com.baidu.mapapi.map.HeatMap$Builder,com.baidu.mapapi.map.e)
+    static synthetic void a(com.baidu.mapapi.map.HeatMap,int,int,int)
+com.baidu.mapapi.map.HeatMap$Builder
+com.baidu.mapapi.map.InfoWindow:
+    com.baidu.mapapi.map.BitmapDescriptor a
+    com.baidu.mapapi.model.LatLng c
+    int e
+    public InfoWindow(android.view.View,com.baidu.mapapi.model.LatLng,int)
+    public InfoWindow(com.baidu.mapapi.map.BitmapDescriptor,com.baidu.mapapi.model.LatLng,int,com.baidu.mapapi.map.InfoWindow$OnInfoWindowClickListener)
+com.baidu.mapapi.map.MapFragment
+com.baidu.mapapi.map.MapPoi:
+    public java.lang.String getName()
+    public com.baidu.mapapi.model.LatLng getPosition()
+com.baidu.mapapi.map.MapStatusUpdateFactory:
+    MapStatusUpdateFactory()
+    public static com.baidu.mapapi.map.MapStatusUpdate newLatLngBounds(com.baidu.mapapi.model.LatLngBounds)
+    public static com.baidu.mapapi.map.MapStatusUpdate newLatLngBounds(com.baidu.mapapi.model.LatLngBounds,int,int)
+    public static com.baidu.mapapi.map.MapStatusUpdate newLatLngZoom(com.baidu.mapapi.model.LatLng,float)
+    public static com.baidu.mapapi.map.MapStatusUpdate scrollBy(int,int)
+    public static com.baidu.mapapi.map.MapStatusUpdate zoomBy(float)
+    public static com.baidu.mapapi.map.MapStatusUpdate zoomBy(float,android.graphics.Point)
+    public static com.baidu.mapapi.map.MapStatusUpdate zoomIn()
+    public static com.baidu.mapapi.map.MapStatusUpdate zoomOut()
+com.baidu.mapapi.map.MapView:
+    public void showZoomControls(boolean)
+    public void showScaleControl(boolean)
+com.baidu.mapapi.map.MapViewLayoutParams:
+    public static final int ALIGN_LEFT
+    public static final int ALIGN_RIGHT
+    public static final int ALIGN_CENTER_HORIZONTAL
+    public static final int ALIGN_TOP
+    public static final int ALIGN_BOTTOM
+    public static final int ALIGN_CENTER_VERTICAL
+    MapViewLayoutParams(int,int,com.baidu.mapapi.model.LatLng,android.graphics.Point,com.baidu.mapapi.map.MapViewLayoutParams$ELayoutMode,int,int,int)
+com.baidu.mapapi.map.MapViewLayoutParams$Builder
+com.baidu.mapapi.map.Marker:
+    public void setIcon(com.baidu.mapapi.map.BitmapDescriptor)
+    public com.baidu.mapapi.map.BitmapDescriptor getIcon()
+    public void setIcons(java.util.ArrayList)
+    public java.util.ArrayList getIcons()
+    public void setPeriod(int)
+    public int getPeriod()
+    public void setToTop()
+    public com.baidu.mapapi.model.LatLng getPosition()
+    public void setPerspective(boolean)
+    public boolean isPerspective()
+    public void setDraggable(boolean)
+    public boolean isDraggable()
+    public boolean isFlat()
+    public void setFlat(boolean)
+    public void setAnchor(float,float)
+    public float getAnchorX()
+    public float getAnchorY()
+    public void setRotate(float)
+    public float getRotate()
+    public void setTitle(java.lang.String)
+    public java.lang.String getTitle()
+com.baidu.mapapi.map.MarkerOptions:
+    public com.baidu.mapapi.map.BitmapDescriptor getIcon()
+    public com.baidu.mapapi.map.MarkerOptions icons(java.util.ArrayList)
+    public java.util.ArrayList getIcons()
+    public com.baidu.mapapi.map.MarkerOptions period(int)
+    public int getPeriod()
+    public com.baidu.mapapi.model.LatLng getPosition()
+    public com.baidu.mapapi.map.MarkerOptions perspective(boolean)
+    public boolean isPerspective()
+    com.baidu.mapapi.map.MarkerOptions a(int)
+    public com.baidu.mapapi.map.MarkerOptions draggable(boolean)
+    public boolean isFlat()
+    public com.baidu.mapapi.map.MarkerOptions flat(boolean)
+    public boolean isDraggable()
+    public com.baidu.mapapi.map.MarkerOptions anchor(float,float)
+    public float getAnchorX()
+    public float getAnchorY()
+    public com.baidu.mapapi.map.MarkerOptions rotate(float)
+    public float getRotate()
+    public com.baidu.mapapi.map.MarkerOptions title(java.lang.String)
+    public java.lang.String getTitle()
+    public com.baidu.mapapi.map.MarkerOptions visible(boolean)
+    public boolean isVisible()
+    public com.baidu.mapapi.map.MarkerOptions zIndex(int)
+    public int getZIndex()
+    public com.baidu.mapapi.map.MarkerOptions extraInfo(android.os.Bundle)
+    public android.os.Bundle getExtraInfo()
+com.baidu.mapapi.map.MyLocationData$Builder:
+    public com.baidu.mapapi.map.MyLocationData$Builder speed(float)
+    public com.baidu.mapapi.map.MyLocationData$Builder satellitesNum(int)
+com.baidu.mapapi.map.Overlay:
+    public boolean isVisible()
+    public void setVisible(boolean)
+    public int getZIndex()
+    public void setZIndex(int)
+    public android.os.Bundle getExtraInfo()
+    public void setExtraInfo(android.os.Bundle)
+com.baidu.mapapi.map.Polygon:
+    public int getFillColor()
+    public java.util.List getPoints()
+    public com.baidu.mapapi.map.Stroke getStroke()
+    public void setFillColor(int)
+    public void setPoints(java.util.List)
+    public void setStroke(com.baidu.mapapi.map.Stroke)
+com.baidu.mapapi.map.PolygonOptions:
+    public int getFillColor()
+    public java.util.List getPoints()
+    public com.baidu.mapapi.map.Stroke getStroke()
+    public com.baidu.mapapi.map.PolygonOptions visible(boolean)
+    public boolean isVisible()
+    public com.baidu.mapapi.map.PolygonOptions zIndex(int)
+    public int getZIndex()
+    public com.baidu.mapapi.map.PolygonOptions extraInfo(android.os.Bundle)
+    public android.os.Bundle getExtraInfo()
+com.baidu.mapapi.map.Polyline
+com.baidu.mapapi.map.PolylineOptions
+com.baidu.mapapi.map.Projection:
+    public float metersToEquatorPixels(float)
+com.baidu.mapapi.map.SupportMapFragment
+com.baidu.mapapi.map.Text
+com.baidu.mapapi.map.TextOptions
+com.baidu.mapapi.map.UiSettings:
+    public boolean isCompassEnabled()
+    public boolean isRotateGesturesEnabled()
+    public boolean isScrollGesturesEnabled()
+    public boolean isOverlookingGesturesEnabled()
+    public boolean isZoomGesturesEnabled()
+    public void setAllGesturesEnabled(boolean)
+    public void setCompassEnabled(boolean)
+    public void setCompassPosition(android.graphics.Point)
+    public void setRotateGesturesEnabled(boolean)
+    public void setScrollGesturesEnabled(boolean)
+    public void setOverlookingGesturesEnabled(boolean)
+    public void setZoomGesturesEnabled(boolean)
+com.baidu.mapapi.map.WeightedLatLng
+com.baidu.mapapi.map.c:
+    public android.os.Bundle a(int,int,int)
+com.baidu.mapapi.map.d
+com.baidu.mapapi.map.e
+com.baidu.mapapi.map.i
+com.baidu.mapapi.map.i$a
+com.baidu.mapapi.map.j
+com.baidu.mapapi.map.offline.MKOLSearchRecord
+com.baidu.mapapi.map.offline.MKOLUpdateElement
+com.baidu.mapapi.map.offline.MKOfflineMap
+com.baidu.mapapi.map.offline.MKOfflineMapListener
+com.baidu.mapapi.map.offline.a
+com.baidu.mapapi.model.a:
+    public static com.baidu.mapapi.model.LatLng a(java.lang.String)
+    public static java.util.List c(java.lang.String)
+    public static java.util.List d(java.lang.String)
+com.baidu.mapapi.navi.BaiduMapAppNotSupportNaviException
+com.baidu.mapapi.navi.BaiduMapNavigation
+com.baidu.mapapi.navi.IllegalNaviArgumentException
+com.baidu.mapapi.navi.NaviPara
+com.baidu.mapapi.overlayutil.BusLineOverlay
+com.baidu.mapapi.overlayutil.DrivingRouteOverlay
+com.baidu.mapapi.overlayutil.OverlayManager
+com.baidu.mapapi.overlayutil.PoiOverlay
+com.baidu.mapapi.overlayutil.TransitRouteOverlay
+com.baidu.mapapi.overlayutil.TransitRouteOverlay$1
+com.baidu.mapapi.overlayutil.WalkingRouteOverlay
+com.baidu.mapapi.search.busline.BusLineResult
+com.baidu.mapapi.search.busline.BusLineResult$BusStation
+com.baidu.mapapi.search.busline.BusLineResult$BusStep
+com.baidu.mapapi.search.busline.BusLineSearch
+com.baidu.mapapi.search.busline.BusLineSearch$1
+com.baidu.mapapi.search.busline.BusLineSearch$a
+com.baidu.mapapi.search.busline.BusLineSearchOption
+com.baidu.mapapi.search.busline.OnGetBusLineSearchResultListener
+com.baidu.mapapi.search.busline.a
+com.baidu.mapapi.search.core.CityInfo
+com.baidu.mapapi.search.core.PoiInfo:
+    public java.lang.String city
+    public com.baidu.mapapi.search.core.PoiInfo$POITYPE type
+    public boolean hasCaterDetails
+    public boolean isPano
+com.baidu.mapapi.search.core.PoiInfo$POITYPE
+com.baidu.mapapi.search.core.RouteLine
+com.baidu.mapapi.search.core.RouteNode
+com.baidu.mapapi.search.core.RouteStep
+com.baidu.mapapi.search.core.TaxiInfo
+com.baidu.mapapi.search.core.VehicleInfo
+com.baidu.mapapi.search.geocode.GeoCodeResult:
+    public java.lang.String getAddress()
+com.baidu.mapapi.search.geocode.ReverseGeoCodeResult:
+    public java.lang.String getBusinessCircle()
+    public com.baidu.mapapi.search.geocode.ReverseGeoCodeResult$AddressComponent getAddressDetail()
+    public java.util.List getPoiList()
+com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener
+com.baidu.mapapi.search.poi.PoiBoundSearchOption
+com.baidu.mapapi.search.poi.PoiCitySearchOption
+com.baidu.mapapi.search.poi.PoiDetailResult
+com.baidu.mapapi.search.poi.PoiDetailSearchOption
+com.baidu.mapapi.search.poi.PoiNearbySearchOption
+com.baidu.mapapi.search.poi.PoiResult
+com.baidu.mapapi.search.poi.PoiSearch
+com.baidu.mapapi.search.poi.PoiSearch$1
+com.baidu.mapapi.search.poi.PoiSearch$a
+com.baidu.mapapi.search.poi.PoiSortType
+com.baidu.mapapi.search.poi.a
+com.baidu.mapapi.search.route.DrivingRouteLine
+com.baidu.mapapi.search.route.DrivingRouteLine$DrivingStep
+com.baidu.mapapi.search.route.DrivingRoutePlanOption
+com.baidu.mapapi.search.route.DrivingRoutePlanOption$DrivingPolicy
+com.baidu.mapapi.search.route.DrivingRouteResult
+com.baidu.mapapi.search.route.OnGetRoutePlanResultListener
+com.baidu.mapapi.search.route.PlanNode
+com.baidu.mapapi.search.route.RoutePlanSearch
+com.baidu.mapapi.search.route.RoutePlanSearch$1
+com.baidu.mapapi.search.route.RoutePlanSearch$a
+com.baidu.mapapi.search.route.SuggestAddrInfo
+com.baidu.mapapi.search.route.TransitRouteLine
+com.baidu.mapapi.search.route.TransitRouteLine$TransitStep
+com.baidu.mapapi.search.route.TransitRouteLine$TransitStep$TransitRouteStepType
+com.baidu.mapapi.search.route.TransitRoutePlanOption
+com.baidu.mapapi.search.route.TransitRoutePlanOption$TransitPolicy
+com.baidu.mapapi.search.route.TransitRouteResult
+com.baidu.mapapi.search.route.WalkingRouteLine
+com.baidu.mapapi.search.route.WalkingRouteLine$WalkingStep
+com.baidu.mapapi.search.route.WalkingRoutePlanOption
+com.baidu.mapapi.search.route.WalkingRouteResult
+com.baidu.mapapi.search.route.a
+com.baidu.mapapi.search.share.LocationShareURLOption
+com.baidu.mapapi.search.share.OnGetShareUrlResultListener
+com.baidu.mapapi.search.share.PoiDetailShareURLOption
+com.baidu.mapapi.search.share.ShareUrlResult
+com.baidu.mapapi.search.share.ShareUrlSearch
+com.baidu.mapapi.search.share.ShareUrlSearch$1
+com.baidu.mapapi.search.share.ShareUrlSearch$a
+com.baidu.mapapi.search.share.a
+com.baidu.mapapi.search.sug.OnGetSuggestionResultListener
+com.baidu.mapapi.search.sug.SuggestionResult
+com.baidu.mapapi.search.sug.SuggestionResult$SuggestionInfo
+com.baidu.mapapi.search.sug.SuggestionSearch
+com.baidu.mapapi.search.sug.SuggestionSearch$1
+com.baidu.mapapi.search.sug.SuggestionSearch$a
+com.baidu.mapapi.search.sug.SuggestionSearchOption
+com.baidu.mapapi.search.sug.a
+com.baidu.mapapi.utils.AreaUtil
+com.baidu.mapapi.utils.CoordinateConverter
+com.baidu.mapapi.utils.CoordinateConverter$1
+com.baidu.mapapi.utils.CoordinateConverter$CoordType
+com.baidu.mapapi.utils.DistanceUtil
+com.baidu.mapapi.utils.PermissionCheck:
+    public static void destory()
+com.baidu.mapapi.utils.SpatialRelationUtil
+com.baidu.mapapi.utils.c
+com.baidu.platform.comapi.a.a
+com.baidu.platform.comapi.a.c
+com.baidu.platform.comapi.b.a
+com.baidu.platform.comapi.b.d:
+    public void a(int)
+    public boolean a(java.lang.String,java.lang.String,int,com.baidu.platform.comapi.a.c,int,java.util.Map)
+    public boolean a(java.lang.String,int,int,int,com.baidu.platform.comapi.a.c,com.baidu.platform.comapi.a.c,java.util.Map,int)
+    public boolean a(java.lang.String,int,int,com.baidu.platform.comapi.a.c,int,com.baidu.platform.comapi.a.d,java.util.Map)
+    private android.os.Bundle a(com.baidu.platform.comapi.b.a)
+    public boolean a(com.baidu.platform.comapi.b.a,com.baidu.platform.comapi.b.a,java.lang.String,com.baidu.platform.comapi.a.c,int,int,java.util.Map)
+    public boolean a(com.baidu.platform.comapi.b.a,com.baidu.platform.comapi.b.a,java.lang.String,java.lang.String,java.lang.String,com.baidu.platform.comapi.a.c,int,int,int,java.util.ArrayList,java.util.Map)
+    public boolean a(com.baidu.platform.comapi.b.a,com.baidu.platform.comapi.b.a,java.lang.String,java.lang.String,java.lang.String,com.baidu.platform.comapi.a.c,int,java.util.Map)
+    public boolean a(java.lang.String)
+    public boolean a(java.lang.String,java.lang.String)
+    public boolean a(java.lang.String,int,java.lang.String,com.baidu.platform.comapi.a.c,int,com.baidu.platform.comapi.a.d)
+    public boolean a(com.baidu.platform.comapi.a.d,java.lang.String,java.lang.String)
+    public boolean b(java.lang.String)
+    private android.os.Bundle b()
+com.baidu.platform.comapi.b.f
+com.baidu.platform.comapi.c.a:
+    public static void b(java.lang.String,java.lang.String)
+com.baidu.platform.comapi.map.C:
+    public java.lang.String a()
+    public android.os.Bundle b()
+com.baidu.platform.comapi.map.f:
+    private boolean f
+    public boolean c()
+    public void b(boolean)
+    public boolean d()
+    public boolean e()
+    public void c(boolean)
+    public boolean f()
+    public void e(boolean)
+    public boolean g()
+    public void f(boolean)
+    public void a(android.graphics.Point)
+    public boolean h()
+    public void j()
+    public boolean k()
+    public void i(boolean)
+    public void j(boolean)
+    public boolean l()
+    public void k(boolean)
+    public boolean m()
+    public void l(boolean)
+    public boolean n()
+    public double r()
+    public void a(java.lang.String,android.graphics.Rect)
+    public int a(android.os.Bundle,int,int,android.os.Bundle)
+    public boolean a(int)
+com.baidu.platform.comapi.map.l:
+    public abstract android.os.Bundle a(int,int,int)
+com.baidu.platform.comapi.map.p
+com.baidu.platform.comapi.map.q
+com.baidu.platform.comapi.map.r
+com.baidu.platform.comapi.map.s
+com.baidu.platform.comapi.map.t
+com.baidu.platform.comapi.map.u
+com.baidu.platform.comapi.map.v
+com.baidu.platform.comjni.engine.AppEngine:
+    public AppEngine()
+    public static void despatchMessage(int,int,int,int)
+com.baidu.platform.comjni.engine.a:
+    public static void a(int,int,int,int)
+com.baidu.platform.comjni.map.basemap.BaseMapCallback:
+    public BaseMapCallback()
+    public static int ReqLayerData(android.os.Bundle,int,int,android.os.Bundle)
+com.baidu.platform.comjni.map.basemap.JNIBaseMap:
+    public native void ShowTrafficMap(int,boolean)
+    public native void ShowHotMap(int,boolean)
+    public native boolean GetBaiduHotMapCityInfo(int)
+    public native void SaveScreenToLocal(int,java.lang.String,android.os.Bundle)
+    public native boolean OnRecordAdd(int,int)
+    public native boolean OnRecordStart(int,int,boolean,int)
+    public native boolean OnRecordSuspend(int,int,boolean,int)
+    public native boolean OnRecordRemove(int,int,boolean)
+    public native java.lang.String OnRecordGetAll(int)
+    public native java.lang.String OnRecordGetAt(int,int)
+    public native boolean OnRecordImport(int,boolean,boolean)
+    public native java.lang.String OnHotcityGet(int)
+    public native java.lang.String OnSchcityGet(int,java.lang.String)
+    public native void enableDrawHouseHeight(int,boolean)
+    public native boolean isDrawHouseHeightEnable(int)
+com.baidu.platform.comjni.map.basemap.a:
+    public void b(boolean)
+    public boolean i()
+    public void c(boolean)
+    public void a(java.lang.String,android.os.Bundle)
+    public boolean d(int)
+    public boolean a(int,boolean,int)
+    public boolean b(int,boolean,int)
+    public boolean b(int,boolean)
+    public java.lang.String j()
+    public java.lang.String e(int)
+    public boolean a(boolean,boolean)
+    public java.lang.String k()
+    public java.lang.String a(java.lang.String)
+    public void d(boolean)
+    public boolean m()
+com.baidu.platform.comjni.map.basemap.b:
+    public abstract int a(android.os.Bundle,int,int,android.os.Bundle)
+    public abstract boolean a(int)
+com.baidu.platform.comjni.map.cloud.JniCloud
+com.baidu.platform.comjni.map.cloud.a
+com.baidu.platform.comjni.map.search.JNISearch:
+    public native boolean ForceSearchByCityName(int,android.os.Bundle)
+    public native boolean AreaSearch(int,android.os.Bundle)
+    public native boolean RoutePlanByBus(int,android.os.Bundle)
+    public native boolean RoutePlanByCar(int,android.os.Bundle)
+    public native boolean RoutePlanByFoot(int,android.os.Bundle)
+    public native boolean POIDetailSearchPlace(int,java.lang.String)
+    public native boolean BusLineDetailSearch(int,java.lang.String,java.lang.String)
+    public native boolean SuggestionSearch(int,android.os.Bundle)
+    public native boolean PoiRGCShareUrlSearch(int,int,int,java.lang.String,java.lang.String)
+    public native boolean PoiDetailShareUrlSearch(int,java.lang.String)
+    public native boolean MapBoundSearch(int,android.os.Bundle)
+com.baidu.platform.comjni.map.search.a:
+    public boolean a(android.os.Bundle)
+    public boolean b(android.os.Bundle)
+    public boolean c(android.os.Bundle)
+    public boolean d(android.os.Bundle)
+    public boolean e(android.os.Bundle)
+    public boolean a(java.lang.String)
+    public boolean a(java.lang.String,java.lang.String)
+    public boolean f(android.os.Bundle)
+    public boolean a(int,int,java.lang.String,java.lang.String)
+    public boolean b(java.lang.String)
+    public boolean g(android.os.Bundle)
+com.baidu.platform.comjni.tools.BundleKeySet
+com.baidu.platform.comjni.tools.JNITools:
+    public static native boolean TransGeoStr2Pt(java.lang.Object)
+    public static native boolean TransGeoStr2ComplexPt(java.lang.Object)
+    public static native void GetDistanceByMC(java.lang.Object)
+com.baidu.platform.comjni.tools.ParcelItem:
+    public android.os.Bundle getBundle()
+com.baidu.platform.comjni.tools.a
+com.baidu.vi.VDeviceAPI
+com.baidu.vi.VMsg:
+    private static void postMessage(int,int,int,int)
+com.baidu.vi.a
+com.baidu.vi.b:
+    public static android.content.Context a()
+com.baidu.vi.c
+com.baidu.vi.c$1
+com.example.fragment.FragmentViewPagerAdapter:
+    76:76:public int getCurrentPageIndex()
+    80:80:public com.example.fragment.FragmentViewPagerAdapter$OnExtraPageChangeListener getOnExtraPageChangeListener()
+    88:89:public void setOnExtraPageChangeListener(com.example.fragment.FragmentViewPagerAdapter$OnExtraPageChangeListener)
+com.example.fragment.FragmentViewPagerAdapter$OnExtraPageChangeListener:
+    122:122:public FragmentViewPagerAdapter$OnExtraPageChangeListener()
+com.example.fragment.SearchMessageHelpFragment:
+    96:97:public void getItem()
+    109:109:public com.zjjin.adapter.SearchMessageListAdapter getAdapter()
+    143:143:public android.view.View getView(android.content.Context)
+com.example.fragment.SearchMessageMineFragment:
+    124:124:public com.zjjin.adapter.SearchMessageListAdapter getAdapter()
+    211:211:public android.view.View getView(android.content.Context)
+com.example.published.AlbumHelper:
+    118:124:void getAlbum()
+    133:175:private void getAlbumColumnData(android.database.Cursor)
+    302:314:java.lang.String getOriginalImagePath(java.lang.String)
+com.example.published.Bimp:
+    13:13:public Bimp()
+com.example.published.FileUtils:
+    12:12:public FileUtils()
+com.example.published.NoScrollGridView
+com.example.published.PopupWindows:
+    public static final int TAKE_PICTURE
+    public static final int OTHER_PICTURE
+com.example.published.PublishedActivity:
+    private static final int TAKE_PICTURE
+    331:354:private void showAlertDialog(int)
+    613:619:public java.lang.String getString(java.lang.String)
+com.example.published.PublishedActivity$8
+com.example.published.PublishedActivity$9
+com.example.published.PublishedActivity$GridAdapter:
+    private boolean shape
+    496:496:public boolean isShape()
+    500:501:public void setShape(boolean)
+    526:527:public void setSelectedPosition(int)
+    530:530:public int getSelectedPosition()
+com.example.published.TestPicActivity:
+    public static final java.lang.String EXTRA_IMAGE_LIST
+com.example.slidingmenu.AddBeaconActivity:
+    private com.zijin.ibeacon.service.BluetoothLeService mService
+    private boolean mConnected
+    private com.zijin.ibeacon.adapter.LeDeviceListAdapter mLeDeviceListAdapter
+    public static final int REQEUSET_ADD_IBEACON_NAME
+    public static final int REQUEST_ADD_IBEACON
+    private static final int REQUEST_ENABLE_BT
+    private static final int OK
+    private static final long SCAN_PERIOD
+    private boolean mScanning
+    209:225:private void scanLeDevice(boolean)
+    74:74:static synthetic void access$16(com.example.slidingmenu.AddBeaconActivity,boolean)
+com.example.slidingmenu.AddBeaconActivity$5
+com.example.slidingmenu.AddNewTrackerActivity:
+    private static final int PHOTO_RESOULT
+    private static final java.lang.String IMAGE_UNSPECIFIED
+com.example.slidingmenu.BaiduMapActivity:
+    android.widget.RadioGroup$OnCheckedChangeListener radioButtonListener
+    public static final int REQUEST_BAIDU_LOCATION
+    261:262:private void startLocation()
+com.example.slidingmenu.BaiduMapActivity$MyLocationListenner:
+    229:229:public void onReceivePoi(com.baidu.location.BDLocation)
+com.example.slidingmenu.BuildConfig
+com.example.slidingmenu.EditUserInfoActivity:
+    private static final int PHOTO_RESOULT
+    public static final int GET_PROVINCE_RESOULT
+    private static final java.lang.String IMAGE_UNSPECIFIED
+com.example.slidingmenu.MainActivity:
+    private static final int SLEEP_MODE
+    private android.app.PendingIntent sleepSender
+    private android.app.PendingIntent wakeupSender
+    private static final int REQUEST_ENABLE_BT
+    1230:1249:private void updateLocation()
+    1280:1281:private void stopAlarm()
+com.example.slidingmenu.MainActivity$26
+com.example.slidingmenu.Manifest
+com.example.slidingmenu.Manifest$permission
+com.example.slidingmenu.QuestionActivity:
+    114:118:private void addInfo(java.lang.String[],java.lang.String[])
+com.example.slidingmenu.QuestionActivity$ExpandableListViewaAdapter:
+    142:145:public QuestionActivity$ExpandableListViewaAdapter(com.example.slidingmenu.QuestionActivity,android.content.Context,java.util.List,java.util.List)
+    226:238:private android.widget.TextView getGenericView(java.lang.String)
+com.example.slidingmenu.R:
+    10:10:public R()
+com.example.slidingmenu.SearchedHelpItemActivity:
+    203:221:private void getDistanceFromDevice(java.lang.String,java.lang.String)
+    74:74:static synthetic android.widget.TextView access$3(com.example.slidingmenu.SearchedHelpItemActivity)
+com.example.slidingmenu.SearchedHelpItemActivity$3
+com.example.slidingmenu.SearchedHelpItemActivity$CommentAdapter:
+    565:567:public void addData(com.zjjin.entity.PublicWords)
+com.example.slidingmenu.SearchedHelpItemActivity$GridAdapter:
+    private boolean shape
+    403:403:public boolean isShape()
+    407:408:public void setShape(boolean)
+    434:435:public void setSelectedPosition(int)
+    438:438:public int getSelectedPosition()
+com.example.slidingmenu.SearchedMineItemActivity:
+    182:199:private void getDistanceFromDevice(java.lang.String,java.lang.String)
+    206:219:private void getImgFromServer(com.zjjin.entity.PublicFind)
+    70:70:static synthetic android.widget.TextView access$2(com.example.slidingmenu.SearchedMineItemActivity)
+com.example.slidingmenu.SearchedMineItemActivity$3
+com.example.slidingmenu.SearchedMineItemActivity$CommentAdapter:
+    433:435:public void addData(com.zjjin.entity.PublicWords)
+com.example.slidingmenu.SearchedMineItemActivity$GridAdapter:
+    private boolean shape
+    285:285:public boolean isShape()
+    289:290:public void setShape(boolean)
+    316:317:public void setSelectedPosition(int)
+    320:320:public int getSelectedPosition()
+com.example.slidingmenu.SearchedMineWordsActivity:
+    private double mBaiduLong
+    private double mBaiduLat
+com.example.slidingmenu.SearchedMineWordsActivity$CommentAdapter:
+    147:149:public void addData(com.zjjin.entity.PublicWords)
+com.example.slidingmenu.WelcomeActivity:
+    private static final java.lang.String FILE_NAME
+com.view.circleimageview.CircleImageView:
+    private static final int COLORDRAWABLE_DIMENSION
+    private static final int DEFAULT_BORDER_WIDTH
+    private static final int DEFAULT_BORDER_COLOR
+com.view.guide.ScrollLayout:
+    private static final java.lang.String TAG
+    private static final int SNAP_VELOCITY
+com.view.sortlistview.CharacterParser:
+    private java.lang.String resource
+    69:69:public java.lang.String getResource()
+    73:74:public void setResource(java.lang.String)
+    135:135:public java.lang.String getSpelling()
+com.view.sortlistview.ClearEditText:
+    124:125:public void setShakeAnimation()
+    134:137:public static android.view.animation.Animation shakeAnimation(int)
+com.view.sortlistview.SelectCountryActivity:
+    211:229:private java.util.List filledData(java.lang.String[])
+com.view.sortlistview.SortGroupMemberAdapter:
+    126:131:private java.lang.String getAlpha(java.lang.String)
+com.view.switchbutton.FrameAnimationController
+com.view.switchbutton.FrameAnimationController$AnimationHandler
+com.view.switchbutton.SwitchButton
+com.view.switchbutton.SwitchButton$1
+com.view.switchbutton.SwitchButton$PerformClick
+com.view.switchbutton.SwitchButton$SwitchAnimation
+com.zijin.dao.IbeaconAreaDao:
+    private static final java.lang.String ID_SELECTION
+    private static final java.lang.String BEACONID_SELECTION
+    private static final java.lang.String ID
+    private static final java.lang.String BEACONID
+    private static final java.lang.String AREANAME
+    private static final java.lang.String ADDRESS
+    private static final java.lang.String SOUTHWEAST
+    private static final java.lang.String NORTHEAST
+    85:88:public int updateName(long,java.lang.String)
+    98:115:public com.zjjin.entity.TrackerSafityArea findByBeaconId(java.lang.String)
+    123:140:public java.util.ArrayList getAllAreas()
+com.zijin.dao.IbeaconDao:
+    private static final java.lang.String ID_SELECTION
+    private static final java.lang.String MAC_SELECTION
+    private static final java.lang.String ENABLED_SELECTION
+    90:94:public int updateLastAddr(java.lang.String,java.lang.String,java.lang.String)
+    158:161:public int updateName(long,java.lang.String)
+    222:225:public int updateImgUrl(java.lang.String,java.lang.String)
+    234:259:public com.zjjin.entity.Tracker findByBeaconId(java.lang.String)
+com.zijin.dao.IbeaconLocationDao:
+    private static final java.lang.String ID_SELECTION
+    private static final java.lang.String BEACONID_SELECTION
+    60:62:public void deleteLocation(int)
+    81:97:public com.zjjin.entity.TrackerLocation findByBeaconId(java.lang.String)
+    136:152:public java.util.ArrayList getAllAreas()
+com.zijin.ibeacon.adapter.LeDeviceListAdapter
+com.zijin.ibeacon.adapter.LeDeviceListAdapter$ViewHolder
+com.zijin.ibeacon.db.DatabaseHelper
+com.zijin.ibeacon.db.IBeaconContact$BeaconColumns:
+    public static final java.lang.String ID
+    public static final java.lang.String NAME
+    public static final java.lang.String UUID
+    public static final java.lang.String MAC
+    public static final java.lang.String MAJOR
+    public static final java.lang.String MINOR
+    public static final java.lang.String IMGURL
+    public static final java.lang.String DISTANCE
+    public static final java.lang.String ENABLED
+    public static final java.lang.String LASTADDRESS
+    public static final java.lang.String LASTDATE
+    public static final java.lang.String MODE
+    public static final java.lang.String SLEEPTIME
+    public static final java.lang.String SLEEPTIMEMODE
+    public static final java.lang.String REPEATTIME
+    public static final java.lang.String REPEATTIMEMODE
+    public static final java.lang.String STATE
+com.zijin.ibeacon.db.SQLiteHelper:
+    private static final int DATABASE_VERSION
+    private static final java.lang.String DATABASE_NAME
+    public static final java.lang.String BEACONS
+    public static final java.lang.String REGION_USER
+    public static final java.lang.String BEACONS_SAFETY_AREA
+    public static final java.lang.String BEACONS_LOCATION
+    private static final java.lang.String CREATE_BEACONS
+    private static final java.lang.String CREATE_USERS
+    private static final java.lang.String CREATE_AREA
+    private static final java.lang.String Beacon_LOCALTION
+com.zijin.ibeacon.http.AppHandler:
+    protected com.zijin.ibeacon.http.AppRequest request
+    protected com.zijin.ibeacon.http.AppResponse response
+com.zijin.ibeacon.http.AppRequest:
+    public static final int UPIMG
+    public static final int NORMAL
+    39:40:public void setmParas(java.util.Map)
+    65:69:public java.lang.String toJson()
+com.zijin.ibeacon.http.AppResponse:
+    private java.lang.String type
+    21:22:public void setmCode(java.lang.String)
+    27:28:public void setmResult(java.lang.String)
+    33:34:public void setmMessage(java.lang.String)
+    36:36:public java.lang.String getType()
+    39:40:public void setType(java.lang.String)
+    45:46:public void setData(java.lang.String)
+com.zijin.ibeacon.http.AppSyncThread
+com.zijin.ibeacon.http.AppThread:
+    20:22:public AppThread(android.app.Activity,com.zijin.ibeacon.http.AppRequest)
+    68:70:protected void showInfoMessage(java.lang.String)
+    73:73:private android.content.DialogInterface$OnClickListener infoListener()
+    15:15:static synthetic com.zijin.ibeacon.http.AppHandler access$0(com.zijin.ibeacon.http.AppThread)
+    13:13:static synthetic com.zijin.ibeacon.http.AppRequest access$1(com.zijin.ibeacon.http.AppThread)
+    14:14:static synthetic com.zijin.ibeacon.http.AppResponse access$2(com.zijin.ibeacon.http.AppThread)
+com.zijin.ibeacon.http.AppThread$1
+com.zijin.ibeacon.http.HttpSession:
+    private static final java.lang.String CHARSET
+    82:83:public java.lang.String get(com.zijin.ibeacon.http.AppRequest)
+com.zijin.ibeacon.http.LoadingIndicator:
+    6:6:public LoadingIndicator()
+com.zijin.ibeacon.http.MessageBox:
+    7:7:public MessageBox()
+com.zijin.ibeacon.model.IbeaconAdvice
+com.zijin.ibeacon.model.IbeaconDevice
+com.zijin.ibeacon.model.IbeaconLocation
+com.zijin.ibeacon.model.IbeaconQuestion:
+    private java.lang.String helpID
+    private java.lang.String questionDate
+    10:10:public java.lang.String getHelpID()
+    13:14:public void setHelpID(java.lang.String)
+    19:20:public void setTitle(java.lang.String)
+    25:26:public void setContent(java.lang.String)
+    28:28:public java.lang.String getQuestionDate()
+    31:32:public void setQuestionDate(java.lang.String)
+com.zijin.ibeacon.service.BluetoothConnector:
+    private java.lang.String address
+    private android.bluetooth.BluetoothDevice device
+    private java.util.Timer mRssiTimer
+    private static final int GET_RSSID_TIME
+    private static final int REQUEST_TIMEOUT
+    223:224:public void setStatus(boolean)
+    256:265:private void connectAllGatt()
+    292:298:public boolean checkDevice(java.lang.String)
+com.zijin.ibeacon.service.BluetoothLeService:
+    public static final java.lang.String BLE_NOT_SUPPORTED
+    public static final java.lang.String BLE_NO_BT_ADAPTER
+    public static final java.lang.String BLE_STATUS_ABNORMAL
+    public static final java.lang.String BLE_DEVICE_LOSTED
+    public static final java.lang.String BLE_REQUEST_FAILED
+    public static final java.lang.String BLE_DEVICE_FOUND
+    public static final java.lang.String BLE_GATT_CONNECTED
+    public static final java.lang.String BLE_GATT_DISCONNECTED
+    public static final java.lang.String BLE_SERVICE_DISCOVERED
+    public static final java.lang.String BLE_CHARACTERISTIC_READ
+    public static final java.lang.String BLE_CHARACTERISTIC_NOTIFICATION
+    public static final java.lang.String BLE_CHARACTERISTIC_INDICATION
+    public static final java.lang.String BLE_CHARACTERISTIC_WRITE
+    public static final java.lang.String BLE_CHARACTERISTIC_CHANGED
+    public static final java.lang.String BLE_RSSI_READED
+    public static final java.lang.String BLE_RSSI_ALARM
+    public static final java.lang.String BLE_MISSED_ALARM
+    public static final java.lang.String BLE_MISSED_ALARM_ALERT
+    public static final java.lang.String ACTION_PAIRING_REQUEST
+    public static final java.lang.String EXTRA_DEVICE
+    public static final java.lang.String EXTRA_RSSI
+    public static final java.lang.String EXTRA_SCAN_RECORD
+    public static final java.lang.String EXTRA_SOURCE
+    public static final java.lang.String EXTRA_ADDR
+    public static final java.lang.String EXTRA_CONNECTED
+    public static final java.lang.String EXTRA_STATUS
+    public static final java.lang.String EXTRA_UUID
+    public static final java.lang.String EXTRA_VALUE
+    public static final java.lang.String EXTRA_REQUEST
+    public static final java.lang.String EXTRA_REASON
+    public static final int DEVICE_SOURCE_SCAN
+    public static final int DEVICE_SOURCE_BONDED
+    public static final int DEVICE_SOURCE_CONNECTED
+    218:218:private boolean checkDevice(java.lang.String)
+    230:237:protected void bleDeviceFound(android.bluetooth.BluetoothDevice,int,byte[],int)
+    241:247:protected void bleCharacteristicNotification(java.lang.String,java.lang.String,boolean,int)
+    257:262:protected void bleCharacteristicIndication(java.lang.String,java.lang.String,int)
+    272:277:protected void bleCharacteristicWrite(java.lang.String,java.lang.String,int)
+    287:292:protected void bleCharacteristicChanged(java.lang.String,java.lang.String,byte[])
+    299:302:protected void bleStatusAbnormal(java.lang.String)
+    352:356:protected void bleAlarm(android.bluetooth.BluetoothDevice,int,int)
+    373:376:protected void bleMissAlarmAlert(java.lang.String)
+com.zijin.ibeacon.service.BluetoothSences:
+    private static final int SCAN_PERIOD
+    private static final int SCAN_TIME
+    280:281:public void stopScan()
+com.zijin.ibeacon.util.BaiduUtils:
+    public android.os.Vibrator mVibrator
+    103:110:public double getInstance(com.baidu.mapapi.model.LatLng)
+com.zijin.ibeacon.util.ImageLoaderUtil:
+    private android.content.Context mContext
+com.zijin.ibeacon.util.Utils:
+    private static final java.lang.String LOCATIONFILE
+    private static final java.lang.String BLE_PASS
+    public static final java.lang.String mServerURl
+    public static final java.lang.String mServerImgPath
+    98:131:public static void putToSDcardFile(com.zijin.ibeacon.model.IbeaconLocation)
+    139:177:public static void removeFromSDcardFile(java.lang.String)
+    183:233:public static java.util.HashMap getTextToSDcardFile()
+    260:262:public static boolean removeBond(java.lang.Class,android.bluetooth.BluetoothDevice)
+    311:313:public static boolean cancelBondProcess(java.lang.Class,android.bluetooth.BluetoothDevice)
+    325:350:public static void printAllInform(java.lang.Class)
+    457:485:public static void upZipMultiFile(java.lang.String,java.lang.String)
+    543:558:public static java.lang.String getDayOfStr(java.lang.String)
+com.zjjin.adapter.GridViewAdapter:
+    41:42:public void setSeclection(int)
+com.zjjin.entity.HelpFound:
+    private java.lang.String helpID
+    private java.lang.String helpUserID
+    private java.lang.String helpTime
+    private java.lang.String helpLong
+    private java.lang.String helpLat
+    private java.lang.String findID
+    private java.lang.String findMac
+    15:15:public java.lang.String getHelpID()
+    18:19:public void setHelpID(java.lang.String)
+    24:25:public void setUserID(java.lang.String)
+    27:27:public java.lang.String getHelpUserID()
+    30:31:public void setHelpUserID(java.lang.String)
+    34:34:public java.lang.String getHelpTime()
+    37:38:public void setHelpTime(java.lang.String)
+    40:40:public java.lang.String getHelpLong()
+    43:44:public void setHelpLong(java.lang.String)
+    46:46:public java.lang.String getHelpLat()
+    49:50:public void setHelpLat(java.lang.String)
+    60:61:public void setHelpCount(int)
+    63:63:public java.lang.String getFindID()
+    66:67:public void setFinID(java.lang.String)
+    71:81:public HelpFound(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    83:83:public java.lang.String getFindMac()
+    86:87:public void setFindMac(java.lang.String)
+    89:90:public void setFindID(java.lang.String)
+com.zjjin.entity.PublicFind:
+    private java.lang.String findType
+    private java.lang.String findStatus
+    private java.lang.String findDate
+    private java.lang.String longitude
+    private java.lang.String latitude
+    32:33:public void setFindID(java.lang.String)
+    40:41:public void setUserID(java.lang.String)
+    44:44:public java.lang.String getFindType()
+    48:49:public void setFindType(java.lang.String)
+    56:57:public void setFindPicture(java.lang.String)
+    72:73:public void setFindLongitude(java.lang.String)
+    80:81:public void setFindLatitude(java.lang.String)
+    88:89:public void setFindDesc(java.lang.String)
+    92:92:public java.lang.String getFindStatus()
+    96:97:public void setFindStatus(java.lang.String)
+    100:100:public java.lang.String getFindDate()
+    104:105:public void setFindDate(java.lang.String)
+    108:108:public java.lang.String getLongitude()
+    112:113:public void setLongitude(java.lang.String)
+    116:116:public java.lang.String getLatitude()
+    120:121:public void setLatitude(java.lang.String)
+    128:129:public void setHeadPicture(java.lang.String)
+    136:137:public void setUsername(java.lang.String)
+    146:147:public void setFindMac(java.lang.String)
+    153:166:public PublicFind(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.zjjin.entity.PublicWords:
+    private java.lang.String headPicture
+    private java.lang.String wordsID
+    private java.lang.String findID
+    private java.lang.String wordsAddress
+    private java.lang.String wordsDate
+    private java.lang.String userID
+    private java.lang.String wordsLongitude
+    private java.lang.String wordsLatitude
+    16:16:public java.lang.String getHeadPicture()
+    19:20:public void setHeadPicture(java.lang.String)
+    28:28:public java.lang.String getWordsID()
+    31:32:public void setWordsID(java.lang.String)
+    34:34:public java.lang.String getFindID()
+    37:38:public void setFindID(java.lang.String)
+    46:46:public java.lang.String getWordsAddress()
+    49:50:public void setWordsAddress(java.lang.String)
+    52:52:public java.lang.String getWordsDate()
+    55:56:public void setWordsDate(java.lang.String)
+    58:58:public java.lang.String getUserID()
+    61:62:public void setUserID(java.lang.String)
+    64:64:public java.lang.String getWordsLongitude()
+    67:68:public void setWordsLongitude(java.lang.String)
+    70:70:public java.lang.String getWordsLatitude()
+    73:74:public void setWordsLatitude(java.lang.String)
+    79:90:public PublicWords(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.zjjin.entity.SearchMessage
+com.zjjin.entity.TrackerLocation:
+    34:34:public int getId()
+    51:57:public TrackerLocation(int,int,java.lang.String,java.lang.String,java.lang.String)
+com.zjjin.entity.TrackerSafityArea:
+    27:30:public TrackerSafityArea(java.lang.String,java.lang.String)
+com.zjjin.entity.User:
+    private static final long serialVersionUID
+    28:38:public User(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.zjjin.entity.iBeaconClass:
+    10:10:public iBeaconClass()
+com.zjjin.utils.AlarmUtils:
+    12:12:public AlarmUtils()
+    54:56:public void cancelAlarmTime(android.content.Context,android.app.PendingIntent)
+com.zjjin.utils.BaiduGeoCoder:
+    63:65:public void onResult(java.lang.String)
+com.zjjin.utils.BitmapUtils:
+    12:12:public BitmapUtils()
+com.zjjin.utils.Consts:
+    public static final java.lang.String UUID
+    public static final java.lang.String IBEACON_ID
+    public static final int TRACKER_STATE_UNSELECTED
+    public static final int TRACKER_STATE_LOST
+    public static final int TRACKER_STATE_TRACKING
+    public static final int TRACKER_STATE_SEARCHING
+    public static final int TRACKER_STATE_ICON_CHANGE_RED
+    public static final int TRACKER_STATE_ICON_CHANGE_BACK
+    public static final java.lang.String TRACKER_STATE_UNSELECTED_TEXT
+    public static final java.lang.String TRACKER_STATE_LOST_TEXT
+    public static final java.lang.String TRACKER_STATE_TRACKING_TEXT
+    public static final int MESSAGE_CHANGE_USER_ICON
+    public static final int REQUEST_CHANGE_USER_ICON
+    public static final java.lang.String PHONE_NUMBER
+    public static final java.lang.String CONNECTION_STATE
+    public static final java.lang.String DEVICE_MAC
+    public static final int REQUEST_ADD_BEACON_CONNECTION_STATE
+    public static final int EXTRA_ADD_BEACON_OK
+    public static final int EXTRA_ADD_BEACON_FAILED
+    public static final int REQUEST_CONNECTION_STATE_ADD_TRACKER
+    public static final int RESULT_CONNECTION_STATE_ADD_TRACKER_OK
+    public static final int RESULT_CONNECTION_STATE_SCAN_BEACON_AGAIN
+    public static final int REQUEST_SELECT_COUNTRY
+    public static final int RESULT_SELECT_COUNTRY
+    public static final java.lang.String COUNTRY
+    public static final java.lang.String NUMBER_CODE
+    public static final int REQUEST_CHANGE_SLEEP_MODE
+    public static final int RESULT_SLEEP_MODE_CHANGED
+    public static final java.lang.String EXTRA_TIME_BEGIN
+    public static final java.lang.String EXTRA_TIME_END
+    public static final int REQUEST_CHANGE_REPEAT_MODE
+    public static final int RESULT_REPEAT_MODE_CHANGED
+    public static final java.lang.String EXTRA_KEY_REPEAT_MODE
+    public static final int REQUEST_LOCATION_NOTE
+    public static final int REQUEST_CHANGE_SAFITY_AREA
+    public static final int RESULT_SAFITY_AREA_CHANGED
+    public static final java.lang.String EXTRA_KEY_SAFITY_AREA
+    public static final int REQUEST_ADD_SAFITY_AREA
+    public static final int RESULT_SAFITY_AREA_ADDED
+    public static final java.lang.String EXTRA_KEY_SAFITY_AREA_NEW
+    public static final int REQUEST_PUBLISHED_SEARCH
+    public static final int RESULT_PUBLISHED_SEARCH
+    public static final int REQUEST_PUBLISHED_SEARCH_ADD_PHOTO
+    public static final int REQUEST_PUBLISHED_SEARCH_VIEW_PHOTO
+    public static final java.lang.String EXTRA_KEY_PUBLISHED_SEARCH
+    public static final int IMAGE_COUNT
+    public static final java.lang.String SMS_AppId
+    public static final java.lang.String SMS_AppKey
+    public static final int REQUEST_HELP_SEARCH
+    public static final int RESULT_HELP_SEARCH
+    public static final int REQUEST_HELP_SEARCH_STATE
+    public static final int RESULT_HELP_SEARCH_SATATE
+    public static final java.lang.String EXTRA_SCAN_TYPE_HELP
+    public static final java.lang.String EXTRA_SCAN_TYPE_ADD
+    public static final java.lang.String EXTRA_KEY_SCAN_TYPE
+    public static final java.lang.String EXTRA_BAIDUMAP_TYPE_KEY
+    public static final java.lang.String EXTRA_BAIDUMAP_TYPE_VIEW_POSITION
+    public static final java.lang.String EXTRA_BAIDUMAP_TYPE_LOCATION
+    public static final int BAIDU_VIEW_LOCATION
+    public static final int RADIUS
+    public static final java.lang.String EXTRA_KEY_SOUTH_WEAST
+    public static final java.lang.String EXTRA_KEY_NORTH_EAST
+    public static final java.lang.String ACTION_SET_START_ALARM
+    public static final java.lang.String ACTION_SET_END_ALARM
+    7:7:public Consts()
+com.zjjin.utils.ConstsUser
+com.zjjin.utils.DateFormatUtils:
+    12:12:public DateFormatUtils()
+    81:102:public static java.lang.String StringData()
+com.zjjin.utils.GetAddressUtil:
+    98:100:public java.lang.String getCity(java.lang.String)
+    107:117:public java.lang.String getProvince(java.lang.String)
+    130:137:public static java.lang.Object keyString(java.util.HashMap,java.lang.String)
+com.zjjin.utils.LogService:
+    private static final int MEMORY_LOG_FILE_MAX_SIZE
+    private static final int MEMORY_LOG_FILE_MONITOR_INTERVAL
+    private static final int SDCARD_LOG_FILE_SAVE_DAYS
+com.zjjin.utils.LogUtil
+com.zjjin.utils.MobileNumber:
+    6:6:public MobileNumber()
+com.zjjin.utils.NetworkUtil:
+    8:8:public NetworkUtil()
+com.zjjin.utils.ScreenUtils:
+    17:19:private ScreenUtils()
+    58:68:public static int getStatusHeight(android.content.Context)
+    78:87:public static android.graphics.Bitmap snapShotWithStatusBar(android.app.Activity)
+    97:111:public static android.graphics.Bitmap snapShotWithoutStatusBar(android.app.Activity)
+com.zjjin.utils.baidumap.GeometryActivity:
+    130:137:public static void actionStart(android.content.Context,int,com.baidu.mapapi.model.LatLng)
+    213:214:public void resetClick()
+    218:219:public void clearClick()
+com.zjjin.utils.baidumap.OpenglActivity:
+    private float[] vertexs
+    private java.nio.FloatBuffer vertexBuffer
+    338:360:private void calPolylinePoint(com.baidu.mapapi.map.MapStatus)
+    363:368:private java.nio.FloatBuffer makeFloatBuffer(float[])
+    374:391:private void drawPolyline(javax.microedition.khronos.opengles.GL10,int,java.nio.FloatBuffer,float,int,com.baidu.mapapi.map.MapStatus)
+com.zjjin.utils.baidumap.OpenglActivity$MyLocationListenner:
+    523:523:public void onReceivePoi(com.baidu.location.BDLocation)
+net.simonvt.numberpicker.NumberPicker:
+    private static final int SELECTOR_WHEEL_ITEM_COUNT
+    private static final long DEFAULT_LONG_PRESS_UPDATE_INTERVAL
+    private static final int SELECTOR_MIDDLE_ITEM_INDEX
+    private static final int SELECTOR_MAX_FLING_VELOCITY_ADJUSTMENT
+    private static final int SELECTOR_ADJUSTMENT_DURATION_MILLIS
+    private static final int SNAP_SCROLL_DURATION
+    private static final float TOP_AND_BOTTOM_FADING_EDGE_STRENGTH
+    private static final int UNSCALED_DEFAULT_SELECTION_DIVIDER_HEIGHT
+    private static final int UNSCALED_DEFAULT_SELECTION_DIVIDERS_DISTANCE
+    private static final int DEFAULT_LAYOUT_RESOURCE_ID
+    private static final int SIZE_UNSPECIFIED
+net.simonvt.numberpicker.NumberPicker$AccessibilityNodeProviderImpl:
+    private static final int UNDEFINED
+    private static final int VIRTUAL_VIEW_ID_INCREMENT
+    private static final int VIRTUAL_VIEW_ID_INPUT
+    private static final int VIRTUAL_VIEW_ID_DECREMENT
+net.simonvt.numberpicker.NumberPicker$OnScrollListener:
+    public static final int SCROLL_STATE_IDLE
+    public static final int SCROLL_STATE_TOUCH_SCROLL
+    public static final int SCROLL_STATE_FLING
+net.simonvt.numberpicker.NumberPicker$PressedStateHelper:
+    public static final int BUTTON_INCREMENT
+    public static final int BUTTON_DECREMENT
+net.simonvt.numberpicker.Scroller:
+    private static final int DEFAULT_DURATION
+    private static final int SCROLL_MODE
+    private static final int FLING_MODE
+    private static final int NB_SAMPLES
+    107:108:public Scroller(android.content.Context)
+    140:141:public final void setFriction(float)
+    175:175:public final int getDuration()
+    184:184:public final int getCurrX()
+    212:212:public final int getStartX()
+    230:230:public final int getFinalX()
+    316:317:public void startScroll(int,int,int,int)
+    443:446:public void abortAnimation()
+    457:461:public void extendDuration(int)
+    480:483:public void setFinalX(int)
+    493:496:public void setFinalY(int)
+    502:502:public boolean isScrollingInDirection(float,float)

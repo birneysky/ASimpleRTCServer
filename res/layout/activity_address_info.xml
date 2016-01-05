@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <TextView 
+        android:id="@+id/tv_showlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TvTextshow14BlackBack"
+        android:text="@string/show_location_title"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"/>
+    <LinearLayout 
+        android:id="@+id/layout_show_location_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView 
+            android:id="@+id/iv_show_location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_distance_loc"
+            android:layout_gravity="center_vertical"/>
+        
+        <TextView 
+	        android:id="@+id/tv_showlocation_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/TvTextShow20BlackBack"
+	        android:text="@string/show_location_title"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="5dp"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/tv_showlocation_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TvTextshow14BlackBack"
+        android:text="@string/show_location_all"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+        />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/black_line"/>
+
+</LinearLayout>

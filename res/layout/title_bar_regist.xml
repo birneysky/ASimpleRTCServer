@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height" 
+    android:orientation="horizontal"
+    android:id="@+id/title_bar"
+    android:background="@color/black">
+    
+	<include layout="@layout/menu_back_black"/>
+
+	<Button 
+	    android:id="@+id/tv_title_bar_right_login"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="@dimen/title_bar_badeg_margin_left"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:textColor="@color/white"
+	    android:textSize="@dimen/title_bar_text_size"
+	    android:text="@string/title_bar_login_tologin"
+	    android:background="@null"/>
+	<ImageView 
+	    android:id="@+id/iv_black_line"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/black_line"
+    	android:scaleType="fitXY"
+    	android:layout_alignParentBottom="true"
+    	android:contentDescription="@null"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height" 
+    android:orientation="horizontal"
+    android:id="@+id/title_bar"
+    android:background="@color/bg_title">
+    
+	<include layout="@layout/menu_back"/>
+	
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true" 
+	    android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/btn_searched_help"
+	        android:layout_width="wrap_content"
+	        android:layout_height="28dp"
+	        android:text="@string/str_searched_message_help"
+	        android:textSize="12sp"
+	        android:textColor="@color/white"
+	        android:background="@drawable/bg_btn_left_selected"
+	        android:paddingLeft="13dp"
+	        android:paddingRight="10dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"/>
+	    <Button 
+	        android:id="@+id/btn_searched_my"
+	        android:layout_width="wrap_content"
+	        android:layout_height="28dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:text="@string/str_searched_message_my"
+	        android:textSize="12sp"
+	        android:textColor="@color/black"
+	        android:background="@drawable/bg_btn_right_unselected"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="13dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"/>
+	</LinearLayout>
+	<ImageView 
+	    android:id="@+id/iv_black_line"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/black_line"
+    	android:scaleType="fitXY"
+    	android:layout_alignParentBottom="true"
+    	android:contentDescription="@null"/>
+
+</RelativeLayout>

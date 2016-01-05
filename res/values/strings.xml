@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天网防丢应用</string>
+    <string name="name">天网防丢</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="guide_notice_1">协助您管理重要物品,让生活更简单</string>
+    <string name="guide_title_2">轻松寻物</string>
+    <string name="guide_notice_2">智能追踪器,助您轻松寻物</string>
+    <string name="guide_title_3">全网搜索</string>
+    <string name="guide_notice_3">物品、宠物丢失、孩子、老人走失\n所有用户通过众寻帮您寻找</string>
+    <string name="to_main">跳过&gt;&gt;</string>
+    <string name="title_bar_add_beacon_title">智能追踪器</string>
+    <string name="title_bar_add_tracker_title">添加新设备</string>
+    <string name="title_bar_add_tracker_finish">完成</string>
+    <string name="title_bar_back_text">返回</string>
+    <string name="add_beacon_notice_text">将贴片放在手机屏幕上\n进行自动配对</string>
+    <string name="add_beacon_center_notice_text_help">搜寻中</string>
+    <string name="add_beacon_notice_text_help">正在帮助众寻\n请您耐心等待</string>
+    <string name="search_failed">未帮助搜寻到</string>
+    <string name="title_bar_sleep_mode_title">自动休眠</string>
+    <string name="title_bar_login_toregist">注册追忆</string>
+    <string name="title_bar_login_tologin">已有账号登录</string>
+    <string name="title_bar_before_tracking">欢迎加入天网防丢</string>
+    <string name="title_activity_add_new_tracker">AddNewTrackerActivity</string>
+    <string name="title_activity_sleep_mode">SleepModeActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_before_tracking">BeforeTrackingActivity</string>
+    <string name="title_activity_edit_user_info">EditUserInfoActivity</string>
+    <string name="show_location_title">定位到的位置</string>
+    <string name="show_location_all">所有城市</string>
+    <string name="title_activity_popup">PopupActivity</string>
+    <string name="neirong">怎样查看位置</string>
+    <!-- menu -->
+    <string-array name="menu_group">
+        <item>怎样查看位置1</item>
+        <item>怎样查看位置2</item>
+        <item>怎样查看位置3</item>
+        <item>怎样查看位置4</item>
+        <item>怎样查看位置5</item>
+    </string-array>
+    <string-array name="menu_child">
+        <item>查看位置1</item>
+        <item>查看位置2</item>
+        <item>查看位置3</item>
+        <item>查看位置4</item>
+        <item>查看位置5</item>
+        <item>查看位置6</item>
+        <item>查看位置7</item>
+        <item>查看位置8</item>
+        <item>查看位置9</item>
+    </string-array>
+
+    <!-- ibeacon -->
+    <string name="ble_not_supported">该设备不支持BLE或蓝牙未启用</string>
+    <string name="ble_not_enable">蓝牙设备未开启</string>
+    <string name="btn_scan">扫描设备</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="disconnected">已断开</string>
+    <string name="connected">已连接</string>
+    <string name="device_found">已发现</string>
+    <string name="connectedfail">已丢失</string>
+    <string name="connecttimeout">已超时</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_suggest">SuggestActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="title_activity_edit_user_name">EditUserNameActivity</string>
+    <string name="title_activity_connection_success">ConnectionSuccessActivity</string>
+    <string name="title_bar_region">地区</string>
+    <string name="str_open_ibeacon">打开\n贴片</string>
+    <string name="str_close_ibeacon">关闭\n贴片</string>
+    <string name="str_search_ibeacon_title">发起众寻</string>
+    <string name="str_search_ibeacon">发起\n众寻</string>
+    <string name="str_delete_ibeacon">删除\n贴片</string>
+    <string name="str_ibeacon_postion">查看\n位置</string>
+    <string name="str_ibeacon_searcharea">搜索范围</string>
+    <string name="str_ibeacon_postion_records">位置记录</string>
+    <string name="str_ibeacon_last_connect_msg">上次连线详情</string>
+    <string name="str_ibeacon_txt_last_location">朝阳大悦城附近</string>
+    <string name="str_ibeacon_device_mode">防丢模式</string>
+    <string name="str_ibeacon_device_mode_auto">全自动</string>
+    <string name="str_ibeacon_device_mode_manually">手动</string>
+    <string name="str_ibeacon_autosleep">自动休眠</string>
+    <string name="str_ibeacon_autorepeat">自动重复</string>
+    <string name="str_ibeacon_workdate">工作日</string>
+    <string name="str_ibeacon_weekend">周末</string>
+    <string name="str_ibeacon_safetyarea">安全区域</string>
+    <string name="str_ibeacon_nosafetyarea">暂无安全区域</string>
+    <string name="str_ibeacon_safetyarea1">公司</string>
+    <string name="str_ibeacon_safetyarea2">学校</string>
+    <string name="str_ibeacon_safetyarea3">商场</string>
+    <string name="str_ibeacon_safetyarea4">其他</string>
+    <string name="str_ibeacon_thinking">众寻中</string>
+    <string name="str_ibeacon_default_repeattimes">23:00-7:00</string>
+    <string name="str_ibeacon_default_repeatdate">1,2,3,4,5</string>
+    <string name="str_baidu_nodistance">距离获取失败</string>
+    <string name="str_seekbar_disableseek">全自动模式无法滑动</string>
+    <string name="listitem_ibeacon_name">设备名称</string>
+    <string name="title_activity_location_note">LocationNoteActivity</string>
+    <string name="title_activity_safity_area">SafityAreaActivity</string>
+    <string name="dialog_positive">查看</string>
+    <string name="dialog_negative">返回</string>
+    <string name="dialog_ok">确定</string>
+    <string name="str_searching">众寻中</string>
+    <string name="title_activity_searched_message">SearchedMessageActivity</string>
+    <string name="str_searched_message_help">帮助众寻</string>
+    <string name="str_searched_message_my">我的众寻</string>
+    <string name="title_activity_searched_help_item">SearchedHelpItemActivity</string>
+    <string name="comment_title">评论</string>
+    <string name="str_comment_name">评论</string>
+    <string name="str_comment_send">发送</string>
+    <string name="str_search_item_help_search">帮助查找</string>
+    <string name="sms_send_success">发送成功</string>
+    <string name="sms_send_fail">发送失败</string>
+    <string name="app_reset_password">密码重置</string>
+    <string name="add_beacon_center_notice_text">将贴片\n放在这里</string>
+    <string name="alert_dialog_safety_title">请输入区域名称</string>
+    <string name="str_location_notime">暂无时间</string>
+    <string name="str_location_address">暂无地址</string>
+    <string name="str_ibeacon_no_scantimes">暂无扫描次数</string>
+    <string name="str_ibeacon_no_scanusers">暂无用户</string>
+    <string name="title_activity_private_deal">PrivateDealActivity</string>
+    <string name="title_activity_private_deal_title">使用条款与隐私协议</string>
+    <string name="activity_private_deal_deal">注册条款</string>
+	<string name="activity_private_deal_private">隐私协议</string>
+    <string name="activity_select_region_area_title">选择国家和地区</string>
+    <string name="connetcion_tel">010-85705362</string>
+</resources>
