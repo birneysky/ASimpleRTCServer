@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- 可以看到x1 = 480 / 基准 = 480 / 320 = 1.5 -->
-    <dimen name="x1">1.5px</dimen>
-    <dimen name="x2">3.0px</dimen>
-    <dimen name="x3">4.5px</dimen>
-    
-</resources>
