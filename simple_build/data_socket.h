@@ -1,49 +1,24 @@
-
 #ifndef DATA_SOCKET_H_
 #define DATA_SOCKET_H_
 
 #include <string>
 
-typedef int NativeSocket;
-
-const NativeSocket INVALID_SOCKET = -1;
-const int SOCKET_ERROR = -1;
-
-class  SocketBase {
-public:
-    SocketBase(): socket_(INVALID_SOCKET){}
-    explicit SocketBase(NativeSocket sock) : socket_(sock) {}
-    ~SocketBase() { Close(); }
-
-    NativeSocket socket() const { return socket_; }
-    bool valid() const { return socket_ != INVALID_SOCKET; }
-    
-    bool Create();
-    void Close();
-protected:
-    NativeSocket socket_;
-};
+#include "socket_base.h"
 
 
 // Represents an HTTP server socket.
 class DataSocket: public SocketBase {
 public:
-    enum RequestMethod {
-        INVALID,
-        GET,
-        POST,
-        OPTIONS,
-    };
+    enum RequestMethod { INVALID, GET, POST, OPTIONS, };
 public:
     static const char kCrossOriginAllowHeaders[];
 public:
-    explicit DataSocket(NativeSocket socket)
-        :SocketBase(socket),method_(INVALID),content_length_(0) {}
-    ~DataSocket(){}
+    explicit DataSocket(NativeSocket socket);
+    ~DataSocket();
 
     bool headers_received() const;
     RequestMethod method() const;
-    const std::string& request_path();
+    const std::string& request_path() const;
     std::string request_arguments() const;
     const std::string& data();
     const std::string& content_type() const;

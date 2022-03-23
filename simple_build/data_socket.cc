@@ -1,4 +1,5 @@
 #include "data_socket.h"
+#include "utils.h"
 
 #include <netinet/in.h>
 #include <sys/select.h>
@@ -6,23 +7,6 @@
 #include <assert.h>
 #include <unistd.h>
 
-#ifndef ARRAYSIZE
-#define ARRAYSIZE(x) (sizeof(x) / sizeof(x[0]))
-#endif
-
-std::string ToString(const int s) {
-  char buf[32];
-  const int len = std::snprintf(&buf[0], 32, "%d", s);
-  return std::string(&buf[0], len);
-}
-
-std::string int2str(int i) {
-  return ToString(i);
-}
-
-std::string size_t2str(size_t i) {
-  return ToString(i);
-}
 
 static const char kHeaderTerminator[] = "\r\n\r\n";
 static const int kHeaderTerminatorLength = sizeof(kHeaderTerminator) - 1;
@@ -37,19 +21,12 @@ const char DataSocket::kCrossOriginAllowHeaders[] =
     "Access-Control-Expose-Headers: Content-Length, X-Peer-Id\r\n";
 
 
-bool SocketBase::Create() {
-  assert(!valid());
-  socket_ = ::socket(AF_INET, SOCK_STREAM, 0);
-  return valid();
-}
+DataSocket::DataSocket(NativeSocket socket)
+  :SocketBase(socket),method_(INVALID),content_length_(0) {}
 
-void SocketBase::Close() {
-  if (socket_ != INVALID_SOCKET) {
-    close(socket_);
-    socket_ = INVALID_SOCKET;
-  }
-}
+DataSocket::~DataSocket(){
 
+}
 
 bool DataSocket::headers_received() const {
   return method_ != INVALID;
@@ -59,7 +36,7 @@ DataSocket::RequestMethod DataSocket::method() const {
   return method_;
 }
     
-const std::string& DataSocket::request_path() {
+const std::string& DataSocket::request_path() const {
   return request_path_;
 }
 
